@@ -1,8 +1,8 @@
-# libdart-skycoin.api.DefaultApi
+# skyapi.api.DefaultApi
 
 ## Load the API package
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 ```
 
 All URIs are relative to *http://127.0.0.1:6420*
@@ -69,7 +69,7 @@ Returns the total number of unique address that have coins.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -108,7 +108,7 @@ Returns the historical, spent outputs associated with an address
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var address = address_example; // String | address to filter by
@@ -149,7 +149,7 @@ Returns the balance of one or more addresses, both confirmed and predicted. The 
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var addrs = addrs_example; // String | command separated list of addresses
@@ -190,11 +190,11 @@ Returns the balance of one or more addresses, both confirmed and predicted. The 
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var addrs = addrs_example; // String | command separated list of addresses
@@ -237,7 +237,7 @@ Returns a block by hash or seq. Note: only one of hash or seq is allowed
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var hash = hash_example; // String | 
@@ -280,7 +280,7 @@ Returns the blockchain metadata.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -317,7 +317,7 @@ Returns the blockchain sync progress.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -356,7 +356,7 @@ or an explicit list of sequences. If using start and end, the block sequences in
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var start = 56; // int | 
@@ -403,11 +403,11 @@ or an explicit list of sequences. If using start and end, the block sequences in
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var start = 56; // int | 
@@ -454,7 +454,7 @@ coinSupplyHandler returns coin distribution supply stats
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -490,7 +490,7 @@ Creates a new CSRF token. Previous CSRF tokens are invalidated by this call.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -527,7 +527,7 @@ defaultConnectionsHandler returns the list of default hardcoded bootstrap addres
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -566,7 +566,7 @@ Returns all transactions (confirmed and unconfirmed) for an address
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var address = address_example; // String | tags to filter by
@@ -607,7 +607,7 @@ Returns node health data.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -646,7 +646,7 @@ Returns the most recent N blocks on the blockchain
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var num = 56; // int | 
@@ -687,7 +687,7 @@ This endpoint returns a specific connection.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var addr = addr_example; // String | Address port
@@ -728,11 +728,11 @@ This endpoint returns all outgoings connections.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var states = states_example; // String | Connection status.
@@ -777,11 +777,11 @@ This endpoint disconnects a connection by ID or address
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Address id.
@@ -823,7 +823,7 @@ This endpoint returns all connections found through peer exchange
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -860,11 +860,11 @@ trustConnectionsHandler returns all trusted connections.\\n They are not necessa
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 
@@ -901,7 +901,7 @@ If neither addrs nor hashes are specificed, return all unspent outputs. If only 
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var address = []; // List<String> | 
@@ -944,11 +944,11 @@ If neither addrs nor hashes are specificed, return all unspent outputs. If only 
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var address = address_example; // String | 
@@ -993,7 +993,7 @@ Returns pending (unconfirmed) transactions without verbose
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -1032,11 +1032,11 @@ Broadcasts all unconfirmed transactions from the unconfirmed transaction pool
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 
@@ -1072,7 +1072,7 @@ Returns the top skycoin holders.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var includeDistribution = true; // bool | include distribution addresses or not, default value false
@@ -1117,7 +1117,7 @@ Returns a transaction identified by its txid hash with just id
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var txid = txid_example; // String | transaction hash
@@ -1160,11 +1160,11 @@ Broadcast a hex-encoded, serialized transaction to the network.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var rawtx = rawtx_example; // String | hex-encoded serialized transaction string.
@@ -1205,7 +1205,7 @@ Returns the hex-encoded byte serialization of a transaction. The transaction may
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var txid = txid_example; // String | Transaction id hash
@@ -1248,11 +1248,11 @@ Decode and verify an encoded transaction
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 
@@ -1289,7 +1289,7 @@ Returns transactions that match the filters.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var addrs = addrs_example; // String | command separated list of addresses
@@ -1332,11 +1332,11 @@ Returns transactions that match the filters.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var addrs = addrs_example; // String | command separated list of addresses
@@ -1379,7 +1379,7 @@ Returns an unspent output by ID.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var uxid = uxid_example; // String | uxid to filter by
@@ -1420,11 +1420,11 @@ Verifies a Skycoin address.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var address = address_example; // String | Address id.
@@ -1467,7 +1467,7 @@ versionHandler returns the application version info
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 
@@ -1503,7 +1503,7 @@ Returns a wallet by id.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | tags to filter by
@@ -1544,7 +1544,7 @@ Returns the wallet's balance, both confirmed and predicted.  The predicted balan
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | tags to filter by
@@ -1587,11 +1587,11 @@ Loads wallet from seed, will scan ahead N address and load addresses till the la
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var seed = seed_example; // String | Wallet seed.
@@ -1640,11 +1640,11 @@ Decrypts wallet.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet id.
@@ -1687,11 +1687,11 @@ Encrypt wallet.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet id.
@@ -1736,7 +1736,7 @@ Returns the wallet directory path
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var addr = addr_example; // String | Address port
@@ -1779,11 +1779,11 @@ Generates new addresses
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet Id
@@ -1830,7 +1830,7 @@ Returns the wallet directory path
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var entropy = entropy_example; // String | Entropy bitSize.
@@ -1871,11 +1871,11 @@ Recovers an encrypted wallet by providing the seed. The first address will be ge
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet id.
@@ -1920,11 +1920,11 @@ This endpoint only works for encrypted wallets. If the wallet is unencrypted, Th
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet Id.
@@ -1967,11 +1967,11 @@ Verifies a wallet seed.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var seed = seed_example; // String | Seed to be verified.
@@ -2014,11 +2014,11 @@ Creates and broadcasts a transaction sending money from one of our wallets to de
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet id
@@ -2067,11 +2067,11 @@ Creates a signed transaction
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var body = new InlineObject(); // InlineObject | 
@@ -2114,7 +2114,7 @@ Returns returns all unconfirmed transactions for all addresses in a given wallet
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet id.
@@ -2155,11 +2155,11 @@ Unloads wallet from the wallet service.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet Id.
@@ -2199,11 +2199,11 @@ Update the wallet.
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 // TODO Configure API key authorization: csrfAuth
-//libdart-skycoin.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
+//skyapi.api.Configuration.apiKey{'X-CSRF-TOKEN'} = 'YOUR_API_KEY';
 // uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-//libdart-skycoin.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
+//skyapi.api.Configuration.apiKeyPrefix{'X-CSRF-TOKEN'} = "Bearer";
 
 var api_instance = new DefaultApi();
 var id = id_example; // String | Wallet Id.
@@ -2247,7 +2247,7 @@ Returns all loaded wallets
 
 ### Example 
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 
 var api_instance = new DefaultApi();
 

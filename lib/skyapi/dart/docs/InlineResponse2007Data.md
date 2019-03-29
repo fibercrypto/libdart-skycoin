@@ -1,8 +1,8 @@
-# libdart-skycoin.model.InlineResponse2007Data
+# skyapi.model.InlineResponse2007Data
 
 ## Load the model package
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 ```
 
 ## Properties

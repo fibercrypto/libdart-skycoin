@@ -1,8 +1,8 @@
-# libdart-skycoin.model.InlineResponse2003UnconfirmedVerifyTransaction
+# skyapi.model.InlineResponse2003UnconfirmedVerifyTransaction
 
 ## Load the model package
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 ```
 
 ## Properties

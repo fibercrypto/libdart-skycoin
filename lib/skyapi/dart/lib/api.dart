@@ -1,4 +1,4 @@
-library libdart-skycoin.api;
+library skyapi.api;
 
 import 'dart:async';
 import 'dart:convert';

@@ -1,4 +1,4 @@
-part of libdart-skycoin.api;
+part of skyapi.api;
 
 class ApiException implements Exception {
   int code = 0;

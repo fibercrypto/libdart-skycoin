@@ -1,8 +1,8 @@
-# libdart-skycoin.model.ApiV1WalletTransactionTo
+# skyapi.model.ApiV1WalletTransactionTo
 
 ## Load the model package
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 ```
 
 ## Properties

@@ -1,4 +1,4 @@
-part of libdart-skycoin.api;
+part of skyapi.api;
 
 class InlineResponse200 {
   

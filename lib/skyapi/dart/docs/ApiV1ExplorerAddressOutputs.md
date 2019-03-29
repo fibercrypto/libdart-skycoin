@@ -1,8 +1,8 @@
-# libdart-skycoin.model.ApiV1ExplorerAddressOutputs
+# skyapi.model.ApiV1ExplorerAddressOutputs
 
 ## Load the model package
 ```dart
-import 'package:libdart-skycoin/api.dart';
+import 'package:skyapi/api.dart';
 ```
 
 ## Properties
