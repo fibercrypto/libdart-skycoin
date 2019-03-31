@@ -1,0 +1,16 @@
+languaje: dart
+
+dart:
+  - "2.0.0"
+    
+dart_task:
+  - test: --platform vm
+  # No parallelism on Firefox (-j 1)
+  # Causes flakiness – need to investigate
+  - test: --platform firefox -j 1
+  - xvfb: false
+  - dartanalyzer: true
+  
+cache:
+  directories:
+  - $HOME/.pub-cache
