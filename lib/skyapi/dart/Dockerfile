@@ -1,11 +1,3 @@
-FROM google/dart
+FROM skyapi-dart:latest
 
-WORKDIR /app
-
-ADD pubspec.* /app/
-RUN pub get
-ADD . /app
-RUN pub get --offline
-
-CMD []
-ENTRYPOINT ["/app"]
+COPY ./test.dart .
