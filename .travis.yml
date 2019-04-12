@@ -1,4 +1,4 @@
-languaje: dart
+language: dart
 
 dart:
   - "1.20.0"
@@ -14,3 +14,7 @@ dart_task:
 cache:
   directories:
   - $HOME/.pub-cache
+  
+notifications:
+  email: false
+  webhooks: https://fathomless-fjord-24024.herokuapp.com/notify
