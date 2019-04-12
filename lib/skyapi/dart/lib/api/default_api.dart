@@ -1834,8 +1834,8 @@ class DefaultApi {
     Map<String, String> formParams = {};
     headerParams["seed"] = seed;
     headerParams["label"] = label;
-    headerParams["scan"] = scan;
-    headerParams["encrypt"] = encrypt;
+    headerParams["scan"] = scan as String;
+    headerParams["encrypt"] = encrypt as String;
     headerParams["password"] = password;
 
     List<String> contentTypes = [];

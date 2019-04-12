@@ -2,6 +2,7 @@ library skyapi.api;
 
 import 'dart:async';
 import 'dart:convert';
+import 'dart:html';
 import 'package:http/browser_client.dart';
 import 'package:http/http.dart';
 
