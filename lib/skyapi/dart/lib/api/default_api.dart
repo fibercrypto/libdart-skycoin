@@ -1692,7 +1692,7 @@ class DefaultApi {
     }
     else {
     }
-
+    print(path);
     var response = await apiClient.invokeAPI(path,
                                              'GET',
                                              queryParams,

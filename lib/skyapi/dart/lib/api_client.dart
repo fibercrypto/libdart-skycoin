@@ -138,8 +138,8 @@ class ApiClient {
     String queryString = ps.isNotEmpty ?
                          '?' + ps.join('&') :
                          '';
-
     String url = basePath + path + queryString;
+    print("InvokeAPI --> " + url);
 
     headerParams.addAll(_defaultHeaderMap);
     headerParams['Content-Type'] = contentType;
@@ -164,7 +164,22 @@ class ApiClient {
         case "PATCH":
           return client.patch(url, headers: headerParams, body: msgBody);
         default:
-          return client.get(url, headers: headerParams);
+          // HttpRequest.getString(url).then((String a){
+          //   print(a);
+          // }).catchError((Error error){
+          //   print(error.toString());
+          // });
+
+          //var result = await client.send(new Request("GET", Uri.parse("http://www.google.com")));
+          //result.then((a) => print(a.stream.toString()));
+          //"http://localhost:6420/api/v1/version"
+          //print(result.stream.toString());
+          print("MAJA");
+          //return client.get("https://swapi.co/api/people/1", headers: headerParams);
+
+          print(await HttpRequest.getString('https://swapi.co/api/people/1'));
+          //print(await HttpRequest.getString('http://localhost:6420/api/v1/version'));
+
       }
     }
   }
